@@ -11,7 +11,7 @@ import "./styles.css";
 
 function App() {
   return (
-    <Router basename="/dishdelightwebsite">
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
